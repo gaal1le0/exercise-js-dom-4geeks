@@ -3,27 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>DOM</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <button id="button">create col</button>
-    <button id="deleteButton">eliminar col</button>
+    <button class="button">Create Column</button>
+    <button class="deleteLast">Delete last Column</button><br /><br />
+    <label>Decide which column will die: </label>
+    <button class="deleteButton">¡Die!</button>
+    <br /><br />
+
     <form action="" id="myForm">
-      <input type="text" placeholder="nuevo texto" id="input" />
-      <input type="text" placeholder="delete one" id="deleteInput" />
+      <input type="text" placeholder="nuevo texto" class="input" />
+      <input type="text" placeholder="delete one" class="deleteInput" />
     </form>
-    <div id="container">
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-    </div>
+    <br />
+    <div class="container"></div>
   </body>
 </html>
